@@ -30,7 +30,7 @@ This project builds on the work of two sources, with thanks to both:
 
 - **TiferKing** — board files and reverse-engineering write-up:
   https://www.tiferking.cn/index.php/2025/01/06/721/
-- **essenceia** — Alibaba Cloud FPGA analysis and JTAG programming notes:
+- **Julia Desmazes** — Alibaba Cloud FPGA analysis and JTAG programming notes:
   https://essenceia.github.io/projects/alibaba_cloud_fpga/
 
 ## Repository Contents
@@ -93,7 +93,7 @@ sudo make install
 
 ### Wiring
 
-The JTAG header is a right-angle pin header on the right edge of the board (see
+The JTAG header is a pin header on the right edge of the board (see
 photo). It is populated by default, so no soldering is required.
 
 ![AS02MC04 board](board.jpeg)
